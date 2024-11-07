@@ -1,0 +1,298 @@
+
+<html> <title> STAT 5110/6110 SAS Programming and Applications by Peng Zeng </title>
+
+<body text="blue" link="green">
+<center>
+<table border="0" width="95%">
+<tr>
+<td width="100%">
+
+<H2> <font face="Courier New" color="345600"> 
+STAT 5110/6110 SAS Programming and Applications by Peng Zeng </font> </H2>
+
+<H2> <font face="Courier New" color="345600"> 
+SAS Codes and Datasets </font> </H2>
+    
+<H3><font face="Courier New" color = "AA8833">
+Useful Links </font></H3>
+    
+<UL>
+<LI> <a href="https://www.sas.com/en_us/software/on-demand-for-academics.html">SAS OnDemand for Academics</a> </LI> 
+<LI> <a href="http://support.sas.com/documentation/index.html">SAS documentation</a></LI>
+<LI> <a href="https://go.documentation.sas.com/doc/en/pgmsascdc/9.4_3.5/basess/titlepage.htm">Step-by-Step Programming with Base SAS 9.4</a> </LI>
+<LI> <a href="https://go.documentation.sas.com/doc/en/pgmsascdc/9.4_3.5/lepg/titlepage.htm">SAS 9.4 Programmer's Guide: Essentials</a> </LI>
+<LI> <a href="https://go.documentation.sas.com/doc/en/pgmsascdc/9.4_3.5/mcrolref/titlepage.htm">SAS 9.4 Macro Language: Reference</a> </LI>
+<LI> <a href="https://go.documentation.sas.com/doc/en/pgmsascdc/9.4_3.5/sqlproc/titlepage.htm">SAS 9.4 SQL Procedure User's Guide</a></LI>
+</UL>
+    
+<H3><font face="Courier New" color = "AA8833">
+01. A Short SAS Tutorial </font></H3>
+
+<UL>
+<LI> <a href="sas2022/01-grades.sas">01-grades.sas</a>: the first SAS code </LI>
+
+<LI> <a href="sas2022/01-external.sas">01-external.sas</a>: read external files 
+    <UL>
+        <LI> filename statement: create an alias for a file </LI>
+        <LI><a href="../datasets/blood-pressure.txt">blood-pressure.txt</a>: a txt file (separated by spaces) </LI>
+        <LI><a href="../datasets/blood-pressure.csv">blood-pressure.csv</a>: a csv file (separated by comma) </LI>
+        <LI><a href="../datasets/blood-pressure.xlsx">blood-pressure.xlsx</a>: an Excel file (xlsx) </LI>
+    </UL>
+</LI>
+
+<LI> <a href="sas2022/01-blood.sas">01-blood.sas</a>: commonly-used procedures 
+    <UL>
+        <LI> proc means: compute descriptive statistics  </LI>
+        <LI> proc freq: create frequency tables </LI>
+        <LI> proc sort: sorting observations </LI>
+    </UL>
+</LI>
+<LI> <a href="sas2022/01-bodymeasure.sas">01-bodymeasure.sas</a>: NHANES example </LI>
+<LI> <a href="sas2022/01-errors.sas">01-errors.sas</a>: sas code with syntax errors </LI>
+</UL>
+
+<H3><font face="Courier New" color = "AA8833">
+02. Creating SAS Data Sets </font></H3>
+
+<UL>
+<LI> <a href="sas2022/02-lib.sas">02-lib.sas</a>: SAS library and permanant SAS data set 
+    <UL>
+        <LI> <a href="datasets/employees.sas7bdat">employees.sas7bdat</a>: SAS data file </LI>
+    </UL>   
+</LI>
+
+<LI> <a href="sas2022/02-external-files.sas">02-external-files.sas</a>: read and write external files 
+    <UL>
+        <LI> <a href="datasets/delimiter.txt">delimiter.txt</a>: values separated by ampersand (&amp;) </LI>
+        <LI> <a href="datasets/state_data.txt">state_data.txt</a>: values separated by space </LI>
+        <LI> <a href="datasets/boot.csv">boot.csv</a>: values separated by comma (,), no variable names </LI>
+        <LI> <a href="datasets/class.txt">class.txt</a>: values separated by tab </LI>
+    </UL>   
+</LI>
+
+<LI> <a href="sas2022/02-excel.sas">02-excel.sas</a>: read and write Excel files 
+    <UL>
+        <LI> <a href="datasets/exercise.xlsx">exercise.xlsx</a>: Excel files with multiple worksheets </LI>
+    </UL>   
+</LI>
+
+<LI>
+    <a href="sas2022/02-manipulate.sas">02-manipulate.sas</a>: minipulate data sets 
+    <UL>
+        <LI> keep and drop variables </LI>
+        <LI> define new variables </LI>
+        <LI> conditional execution </LI>
+        <LI> create subsets </LI>
+    </UL>
+</LI>
+
+<LI>
+    <a href="sas2022/02-transpose.sas">02-transpose.sas</a>: proc transpose 
+</LI>
+
+<LI>
+    <a href="sas2022/02-retain.sas">02-retain.sas</a>:  
+    <UL>
+        <LI> accumulate total  </LI>
+        <LI> retain statement </LI>
+    </UL>
+</LI>
+</UL>
+
+<H3><font face="Courier New" color = "AA8833">
+03. Creating Reports </font></H3>
+
+<UL>
+<LI> 
+    <a href="sas2022/03-proc-print.sas">03-proc-print.sas</a>: proc print 
+    <UL>
+        <LI>common statements: var, where, by, id</LI>
+        <LI>common options: noobs, label</LI>
+        <LI>compute totals and subtotals</LI>
+        <LI>titles, footnotes, and other global options</LI>
+    </UL>
+</LI> 
+<LI>
+    <a href="sas2022/03-format.sas">03-format.sas</a>: SAS format 
+    <UL>
+        <LI>demonstrate typical SAS formats</LI>
+        <LI>proc format: define new format</LI>
+    </UL>
+</LI>
+<LI>
+    <a href="sas2022/03-summary.sas">03-summary.sas</a>: summarize data 
+    <UL> 
+        <LI> proc means: compute descriptive statistics</LI>
+        <LI> proc freq: create frequency tables</LI>
+    </UL>
+</LI>
+
+<LI>
+    <a href="sas2022/03-tabulate.sas">03-tabulate.sas</a>: proc tabulate: display descriptive statistics in tabular format
+</LI>
+
+<LI>
+    <a href="sas2022/03-report.sas">03-report.sas</a>: proc report: produce a variety of reports 
+</LI>
+</UL>
+
+<H3><font face="Courier New" color = "AA8833">
+04. More Discussions on Data Step </font></H3>
+        
+<UL>
+<LI>
+    <a href="sas2022/04-firstlast.sas">04-firstlast.sas</a>: first and last observations in a sorted data set
+</LI>
+<LI> 
+    <a href="sas2022/04-read-space.sas">04-read-space.sas</a>: read raw data separated by sapces 
+    <UL>
+        <LI> <a href="datasets/ToadJump.txt">ToadJump.txt</a>: </LI>
+        <LI> <a href="../datasets/grades.txt">grades.txt</a>: </LI>
+        <LI> <a href="datasets/AllScores.txt">AllScores.txt</a>: demonstrate option missover </LI>        
+    </UL>
+</LI>
+<LI>
+    <a href="sas2022/04-read-column.sas">04-read-column.sas</a>: read raw data arranged in columns
+    <UL>
+        <LI> <a href="datasets/OnionRing.txt">OnionRing.txt</a>: </LI>
+        <LI> <a href="datasets/Pumpkin.txt">Pumpkin.txt</a>: </LI>
+        <LI> <a href="datasets/NatPark.txt">NatPark.txt</a>: </LI>
+        <LI> <a href="datasets/Address.txt">Address.txt</a>: demonstrate option truncover </LI>
+    </UL>
+</LI>
+<LI>
+    <a href="sas2022/04-read-delimited.sas">04-read-delimited.sas</a>: read delimited files 
+    <UL>
+        <LI> <a href="datasets/Bands.csv">Bands.csv</a>: </LI>
+    </UL>
+</LI>
+<LI>
+    <a href="sas2022/04-write-raw.sas">04-write-raw.sas</a>: write data to external files 
+</LI>
+<LI>
+    <a href="sas2022/04-output.sas">04-output.sas</a>: control output
+</LI>
+<LI>
+    <a href="sas2022/04-combine.sas">04-combine.sas</a>: combine data sets 
+</LI>
+</UL>
+
+<H3><font face="Courier New" color = "AA8833">
+05. More Discussions on SAS Programming </font></H3>
+            
+<UL>
+<LI> 
+    <a href="sas2022/05-numeric.sas">05-numeric.sas</a>: SAS functions - numeric
+</LI>
+<LI> 
+    <a href="sas2022/05-character.sas">05-character.sas</a>: SAS functions - character
+</LI>
+<LI> 
+    <a href="sas2022/05-misc.sas">05-misc.sas</a>: SAS functions - miscellaneous 
+</LI>
+<LI>
+    <a href="sas2022/05-doloop.sas">05-doloop.sas</a>: examples for do-loop
+</LI>
+<LI>
+    <a href="sas2022/05-array.sas">05-array.sas</a>: examples for arrays 
+    <UL>
+        <LI> <a href="datasets/donate.sas7bdat">denote.sas7dbat</a>: </LI>
+    </UL>
+</LI>
+</UL>
+
+<H3><font face="Courier New" color = "AA8833">
+06. Proc SQL </font></H3>
+                    
+<UL>
+<LI> 
+    <a href="sas2022/06-SQL.sas">06-SQL.sas</a>: proc sql queries 
+    <UL>
+        <LI> <a href="../datasets/pokemon.csv">pokemon.csv</a>: Pokemon </LI> 
+        <LI> <a href="datasets/employees.sas7bdat">employees.sas7bdat</a>: SAS data file </LI>
+    </UL>
+</LI>
+<LI> 
+    <a href="sas2022/06-SQL-table.sas">06-SQL-table.sas</a>: proc sql tables 
+</LI>
+<LI> 
+    <a href="sas2022/06-SQL-join.sas">06-SQL-join.sas</a>: proc sql joins
+</LI>
+<LI> 
+    <a href="sas2022/06-SQL-set.sas">06-SQL-set.sas</a>: proc sql set 
+</LI>
+<LI> 
+    <a href="sas2022/06-SQL-subquery.sas">06-SQL-subquery.sas</a>: proc sql subqueries 
+</LI>
+</UL>
+
+<H3><font face="Courier New" color = "AA8833">
+07. SAS Macro </font></H3>
+                        
+<UL>
+<LI> 
+    <a href="sas2022/07-macro-variable.sas">07-macro-variable.sas</a>: examples on macro variables 
+</LI>
+<LI> 
+    <a href="sas2022/07-macro-variable-more.sas">07-macro-variable-more.sas</a>: more examples on macro variables 
+</LI>
+<LI> 
+    <a href="sas2022/07-macro-functions.sas">07-macro-functions.sas</a>: examples on macro functions 
+</LI>
+<LI> 
+    <a href="sas2022/07-macro-definition.sas">07-macro-definition.sas</a>: examples on macro definitions 
+</LI>
+<LI> 
+    <a href="sas2022/07-macro-programming.sas">07-macro-programming.sas</a>: examples on macro programming 
+</LI>
+</UL>
+
+<H3><font face="Courier New" color = "AA8833">
+08. SAS Graphs </font></H3>
+                    
+<UL>
+<LI> 
+    <a href="sas2022/08-graphs.sas">08-graphs.sas</a>: proc sgplot 
+</LI>
+<LI>
+    <a href="sas2022/08-multiple.sas">08-multiple.sas</a>: proc sgpanel and sgscatter 
+</LI>
+</UL>
+    
+<H3><font face="Courier New" color = "AA8833">
+09. Selected Topics </font></H3>
+                            
+<UL>
+<LI> 
+    <a href="sas2022/09-more-read.sas">09-more-read.sas</a>: more examples on reading raw data 
+    <UL>
+        <LI><a href="datasets/rawdata-ex1.txt">rawdata-ex1.txt</a>: one observation in multiple lines</LI>
+        <LI><a href="datasets/rawdata-ex2.txt">rawdata-ex2.txt</a>: mixed record types</LI>
+        <LI><a href="datasets/rawdata-ex3.txt">rawdata-ex3.txt</a>: a hierarchical file</LI>
+        <LI><a href="datasets/rawdata-ex4.txt">rawdata-ex4.txt</a>: a hierarchical file</LI>
+        <LI><a href="datasets/VAlung.txt">VAlung.txt</a>: VA lung example</LI>
+    </UL>
+</LI>
+<LI>
+    <a href="sas2022/09-more-write.sas">09-more-write.sas</a>: more examples on writing data to external files 
+</LI>
+</UL>
+
+
+<H3><font face="Courier New" color = "AA8833">
+Topics in SAS Programming</font></H3>
+
+<UL>
+    <LI>
+        <a href="sas-topics/where-if.sas">where-if.sas</a>: where vs if statements 
+    </LI>
+</UL>
+
+<p>
+    
+<HR>
+
+</td></tr></table>
+</center>
+</body>
+</html>
