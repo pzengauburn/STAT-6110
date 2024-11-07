@@ -1,0 +1,5 @@
+Name      Gender   STAT7000  STAT7010  STAT7030
+Michael   Male     86        88        90  
+Jessica   Female   90        79        80 
+Matthew   Male     78        85        75
+Ann       Female   95        90        89 

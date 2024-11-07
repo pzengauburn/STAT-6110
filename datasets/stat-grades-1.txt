@@ -1,0 +1,9 @@
+Student,Michael,Male,Math
+Score,STAT 7000,89
+Score,STAT 7010,90
+Student,Jessica,Female,GEOG
+Score,STAT 6110,85
+Score,STAT 7600,80
+score,STAT 7020,92
+Student,Matthew,Male,DSTM
+Score,STAT 7860,70

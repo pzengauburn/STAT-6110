@@ -1,0 +1,18 @@
+TORRES              JAN       E0029Pilot   07/16/87   50000
+LANGKAMM            SARAH     E0045Mechanic07/02/87   80000
+SMITH               MICHAEL   E0106Mechanic05/02/87   40000
+LEISTNER            COLIN     E0116Mechanic06/01/87   36000
+WADE                KIRSTEN   E0126Pilot   05/03/84   85000
+TOMAS               HARALD    E0143Pilot   08/28/84  105000
+WAUGH               TIM       E0204Pilot   07/23/86   70000
+LEHMANN             DAGMAR    E0206Mechanic08/02/86   64000
+TRETTHAHN           MICHAEL   E0248Pilot   06/14/86  100000
+TIETZ               OTTO      E0282Pilot   10/15/84   45000
+O'DONOGHUE          ART       E0288Mechanic09/24/94   52000
+WALKER              THOMAS    E0304Pilot   07/26/83   95000
+NOROVIITA           JOACHIM   E0310Mechanic05/11/89   78000
+OESTERBERG          ANJA      E0339Mechanic11/24/89   80000
+LAUFFER             CRAIG     E0346Mechanic05/08/90   40000
+TORR                JUGDISH   E0428Pilot   08/07/90   45000
+WAGSCHAL            NADJA     E0449Pilot   08/29/89   77500
+TOERMOEN            JOCHEN    E0451Pilot   05/24/90   65000

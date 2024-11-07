@@ -1,0 +1,9 @@
+Michael,Male,Math
+STAT 7000,89
+STAT 7010,90
+Jessica,Female,GEOG
+STAT 6110,85
+STAT 7600,80
+STAT 7020,92
+Matthew,Male,DSTM
+STAT 7860,70
