@@ -1,0 +1,23 @@
+List of Websites 
+
+Finding Datasets for Secondary Analysis
+https://browse.welch.jhmi.edu/datasets
+
+Project Data Sphere
+https://data.projectdatasphere.org/projectdatasphere/html/home
+
+Scientific Data (Nature)
+https://www.nature.com/sdata/
+https://www.nature.com/sdata/policies/repositories
+
+American Community Survey 
+https://www.census.gov/programs-surveys/acs
+
+American Community Survey - Public Use Microdata Sample (PUMS)
+https://www.census.gov/programs-surveys/acs/microdata.html
+
+Current Population Survey
+https://www.census.gov/programs-surveys/cps.html
+
+Current Population Survey Datasets 
+https://www.census.gov/programs-surveys/cps/data/datasets.html
