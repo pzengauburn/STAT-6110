@@ -1,0 +1,20 @@
+{
+  "_captured_at": "2026-07-12T03:36:36Z",
+  "_captured_run_id": "r_85f2112ce20049dbb1fdc63a60fd8ee0",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote one (3 rows, 2 columns).",
+    "NOTE: Wrote two (3 rows, 2 columns).",
+    "NOTE: Wrote three (5 rows, 2 columns).",
+    "NOTE: Wrote four (4 rows, 2 columns)."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

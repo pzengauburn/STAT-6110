@@ -1,0 +1,7 @@
+{
+  "bundle": "t005_where_if",
+  "source_file": "sas-topics/where-if.sas",
+  "source_blob_sha": "b94a20bd9889fbe0bbb0febcb6eacb6d9ba13f9f",
+  "source_commit": "3138649aaaddc44bec1433a0769e5ae67a336a3a",
+  "notes": "Fully self-contained: uses sashelp.class throughout to demonstrate WHERE vs IF semantics (subsetting, multiple conditions, BETWEEN/CONTAINS operators, dataset-option WHERE, first.-variable logic, WHERE-vs-IF timing on MERGE). No edits needed to run."
+}

@@ -1,0 +1,7 @@
+{
+  "bundle": "t004_combine",
+  "source_file": "sas2022/04-combine.sas",
+  "source_blob_sha": "448a9ee1d442c4a66251615f416de853fa108c33",
+  "source_commit": "3138649aaaddc44bec1433a0769e5ae67a336a3a",
+  "notes": "Fully self-contained: inline DATALINES datasets combined via SET (concatenate, rename, one-to-one) and MERGE (one-to-one, many-to-many, in= option). No edits needed to run."
+}

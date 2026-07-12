@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_sql_join",
+  "source_file": "sas2022/06-SQL-join.sas",
+  "source_blob_sha": "74cd25d6902c26584c82b311e31099458a4cad5c",
+  "source_commit": "3138649aaaddc44bec1433a0769e5ae67a336a3a",
+  "notes": "Fully self-contained: four small datasets built via inline DATALINES, then PROC SQL cartesian/inner/left/right/full joins with and without table aliases. No edits needed to run."
+}
