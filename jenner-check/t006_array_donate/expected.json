@@ -1,0 +1,21 @@
+{
+  "_captured_at": "2026-07-12T03:36:36Z",
+  "_captured_run_id": "r_3b5f202bb1494d32b6ade38eb8b05161",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Wrote donate (6 rows, 5 columns).",
+    "NOTE: Wrote charity (6 rows, 5 columns).",
+    "NOTE: Wrote charity2 (6 rows, 5 columns).",
+    "NOTE: Wrote percent (6 rows, 10 columns).",
+    "NOTE: Wrote change (6 rows, 8 columns)."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

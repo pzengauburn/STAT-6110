@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_grades",
+  "source_file": "sas2022/01-grades.sas",
+  "source_blob_sha": "0a5baec7e1c12435e8a9984b41566395be00438f",
+  "source_commit": "3138649aaaddc44bec1433a0769e5ae67a336a3a",
+  "notes": "Fully self-contained: builds a small grades dataset via inline DATALINES, then PROC PRINT + PROC MEANS. No edits needed to run."
+}

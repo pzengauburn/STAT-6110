@@ -1,0 +1,7 @@
+{
+  "bundle": "t007_summary_bodymeasure",
+  "source_file": "sas2022/03-summary.sas",
+  "source_blob_sha": "8ee1489d41b4a7596b5d1ce56406f08efea6bcb1",
+  "source_commit": "3138649aaaddc44bec1433a0769e5ae67a336a3a",
+  "notes": "Substitution applied: upstream fetches its input over the network (filename myfile url '.../bodymeasure.csv'; proc import ... dbms=csv;). Inlined the same 35-row stride sample (balanced 16F/19M across 5 race categories, already checked into this repo at datasets/bodymeasure.csv) as DATALINES instead, so the bundle needs no uploaded input file and runs with the SAS runner (which sends only script text). All PROC steps (MEANS with where/class/by/output, FORMAT, FREQ with crosslist/out=) are byte-identical to the original."
+}

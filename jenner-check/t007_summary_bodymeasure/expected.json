@@ -1,0 +1,20 @@
+{
+  "_captured_at": "2026-07-12T03:40:57Z",
+  "_captured_run_id": "r_f8d2f6edd7514d3a8306e3c85937112e",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Read 35 rows from DATALINES.",
+    "NOTE: Wrote body (35 rows, 17 columns).",
+    "NOTE: PROC CONTENTS completed: 35 observations, 17 variables",
+    "NOTE: Output dataset summary has 3 observations and 7 variables."
+  ],
+  "log_does_not_contain": [
+    "ERROR:",
+    "[JENNER-ERROR"
+  ],
+  "diagnostics": {
+    "parse_warnings": [],
+    "runtime_warnings": []
+  }
+}

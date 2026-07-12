@@ -1,0 +1,7 @@
+{
+  "bundle": "t006_array_donate",
+  "source_file": "sas2022/05-array.sas",
+  "source_blob_sha": "980b9b6af6331dd1f7447b429d3843430bc9cc4a",
+  "source_commit": "3138649aaaddc44bec1433a0769e5ae67a336a3a",
+  "notes": "Substitution applied: upstream loads its donate dataset from a hardcoded local libname (libname mylib '/home/zengpen/datasets'; set mylib.donate;) pointing at a machine outside the repo; datasets/donate.sas7bdat exists in-repo but is a binary SAS7BDAT we can't read directly. Recreated a 6-row donate dataset inline via DATALINES with the same shape (ID, Qtr1-Qtr4) the rest of the script expects. Everything from 'proc contents' onward is byte-identical to the original: ARRAY-based percentage/difference/goal/rotate calculations."
+}
